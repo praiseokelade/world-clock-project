@@ -1,4 +1,61 @@
 body {
   font-family: "PT Serif", serif;
+  background: #efedf8;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+}
+
+select {
+  width: 100%;
+  font-size: 15px;
+  padding: 8px;
+  border-radius: 5px;
+  display: block;
+  font-family: "PT Serif", serif;
+}
+
+.container {
+  background: #fff;
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 60px auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.7;
+}
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 20px;
+  vertical-align: middle;
+  line-height: 36px;
+}
+
+footer {
   text-align: center;
 }
