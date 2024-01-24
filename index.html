@@ -18,28 +18,30 @@
     <div class="container">
       <h1>World Clock</h1>
 
-      <select name="" id="">
+      <select name="" id="city">
         <option value="">Choose a city...</option>
-        <option value="">Los Angeles, USA</option>
-        <option value="">Chicago, USA</option>
-        <option value="">Abuja, Nigeria</option>
-        <option value="">Rome, Italy</option>
+        <option value="America/Los_Angeles">Los Angeles, USA</option>
+        <option value="America/Chicago">Chicago, USA</option>
+        <option value="Africa/Lagos">Lagos, Nigeria</option>
+        <option value="Europe/Rome">Rome, Italy</option>
       </select>
 
-      <div class="city" id="manchester">
-        <div>
-          <h2>Manchester, England</h2>
-          <div class="date" id="date">January 22nd, 2024</div>
+      <div id="cities">
+        <div class="city" id="manchester">
+          <div>
+            <h2>Manchester, England</h2>
+            <div class="date" id="date"></div>
+          </div>
+          <div class="time" id="time"></div>
         </div>
-        <div class="time" id="time">1:48:15 <small>AM</small></div>
-      </div>
 
-      <div class="city" id="sydney">
-        <div>
-          <h2>Sydney, Australia</h2>
-          <div class="date" id="date">January 22nd, 2024</div>
+        <div class="city" id="sydney">
+          <div>
+            <h2>Sydney, Australia</h2>
+            <div class="date" id="date"></div>
+          </div>
+          <div class="time" id="time"></div>
         </div>
-        <div class="time" id="time">1:48:15 <small>AM</small></div>
       </div>
     </div>
     <footer>
