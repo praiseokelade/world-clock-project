@@ -18,6 +18,16 @@ function updateTime() {
   sydneyTime.innerHTML = sydneyTimeElement.format(
     "h:mm:ss [<small>]A[</small>]"
   );
+
+  let losAngeles = document.querySelector("#los-angeles");
+  let losAngelesDate = losAngeles.querySelector("#date");
+  let losAngelesTime = losAngeles.querySelector("#time");
+  let losAngelesTimeElement = moment().tz("America/Los_Angeles");
+
+  losAngelesDate.innerHTML = losAngelesTimeElement.format("MMMM Do, YYYY");
+  losAngelesTime.innerHTML = losAngelesTimeElement.format(
+    "h:mm:ss [<small>]A[</small>]"
+  );
 }
 
 function updateCity(event) {
